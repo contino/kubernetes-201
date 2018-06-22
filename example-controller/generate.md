@@ -173,7 +173,7 @@ type FooList struct {
 
 Generate scaffolding for client and api
 ```
-vendor/k8s.io/code-generator/generate-groups.sh all github.com/taliesins/t/pkg/client github.com/taliesins/t/pkg/apis "samplecontroller:v1"
+vendor/k8s.io/code-generator/generate-groups.sh all github.com/taliesins/t/pkg/generated github.com/taliesins/t/pkg/apis "samplecontroller:v1"
 ```
 
 
