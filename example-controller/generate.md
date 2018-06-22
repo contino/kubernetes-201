@@ -72,8 +72,8 @@ dep ensure -add github.com/kubernetes/code-generator
 # Generate codegen templates
 
 ```
-mkdir -p C:\data\go\src\github.com\taliesins\t\pkg\apis\example\v1
-cd C:\data\go\src\github.com\taliesins\t\pkg\apis\example\v1
+mkdir -p C:\data\go\src\github.com\taliesins\t\pkg\apis\samplecontroller\v1
+cd C:\data\go\src\github.com\taliesins\t\pkg\apis\samplecontroller\v1
 ```
 
 doc.go
@@ -96,7 +96,7 @@ import (
     "k8s.io/apimachinery/pkg/runtime"
     "k8s.io/apimachinery/pkg/runtime/schema"
  
-    samplecontroller "ithub.com/taliesins/t/pkg/apis/samplecontroller"
+    samplecontroller "github.com/taliesins/t/pkg/apis/samplecontroller"
 )
  
 // SchemeGroupVersion is group version used to register these objects
@@ -173,7 +173,7 @@ type FooList struct {
 
 Generate scaffolding for client and api
 ```
-vendor/k8s.io/code-generator/generate-groups.sh all github.com/taliesins/t/pkg/client github.com/taliesins/t/pkg/apis "samplecontroller:v1alpha1"
+vendor/k8s.io/code-generator/generate-groups.sh all github.com/taliesins/t/pkg/client github.com/taliesins/t/pkg/apis "samplecontroller:v1"
 ```
 
 
