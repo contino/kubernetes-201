@@ -9,7 +9,7 @@ go get -u github.com/golang/dep/cmd/dep
 Make project directory
 ```
 mkdir C:\data\go\src\github.com\taliesins\t
-cd C:\data\go\src\github.com\taliesins\
+cd C:\data\go\src\github.com\taliesins\t
 ```
 
 
