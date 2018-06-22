@@ -64,9 +64,9 @@ required = [
     go-tests = false
 ```
 
-dep has problems with dependencies that do not contain go code, so we cant use:
+Run
 ```
-dep ensure -add github.com/kubernetes/code-generator
+dep ensure
 ```
 
 # Generate codegen templates
