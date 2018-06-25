@@ -449,3 +449,24 @@ After the first run of `update-codegen.sh` you should run `dep ensure` again.
 
 
 
+# Use the generated code
+# Create a main.go in the root
+# Create a controller.go and a controller_test.go
+Check if the imports map to the auto-generated client code
+
+# Run a dep ensure
+
+Run go test
+
+# Make the resources available
+# Create the custom resource definition
+
+```
+kubectl apply -f artifacts/crd.yaml
+```
+
+# Create the custom resource definition validation as well
+
+```
+kubectl apply -f artifacts/crd-validation.yaml
+```
