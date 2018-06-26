@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: samplecontroller
+  namespace: default
+spec:
+  containers:
+  - image: hibri/sample-k8s-controller:latest
+    imagePullPolicy: Always
+    name: samplecontroller
