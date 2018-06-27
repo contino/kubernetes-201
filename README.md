@@ -1,6 +1,6 @@
 # Kubernetes 201
 
-This project will demonstrate the basic programable infrastructure features of Kubernetes by using custom controller.
+This project will demonstrate the basic programmable infrastructure features of Kubernetes by using custom controller.
 
 ## Getting Started
 
