@@ -447,25 +447,28 @@ hack/update-codegen.sh
 
 After the first run of `update-codegen.sh` you should run `dep ensure` again. 
 
-
-
 # Use the generated code
-# Create a main.go in the root
-# Create a controller.go and a controller_test.go
+## Create a main.go in the root
+## Create a controller.go and a controller_test.go
 Check if the imports map to the auto-generated client code
 
-# Run a dep ensure
+```
+dep ensure
+```
 
-Run go test
+```
+go test
+```
 
-# Make the resources available
-# Create the custom resource definition
+# Deploy the custom resource
+
+Create the custom resource definition and then deploy it.
 
 ```
 kubectl apply -f artifacts/crd.yaml
 ```
 
-# Create the custom resource definition validation as well
+Create the custom resource definition validation and then deploy it.
 
 ```
 kubectl apply -f artifacts/crd-validation.yaml
