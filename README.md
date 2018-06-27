@@ -36,6 +36,18 @@ In this demo we are going to:
 * deploy a custom resource and show that the controller has generated a deployment for the custom resource
 * delete the deployment and show the the custom controller has generated another deployment for the custom resource
 
+Make sure that Kubernetes does not have any pre-existing demo configuration.
+
+```
+make cleanup
+```
+
+Then to run demo:
+
+```
+make demo-1
+```
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/contino/kubernetes-201) for details on our code of conduct, and the process for submitting pull requests to us.
