@@ -48,6 +48,10 @@ Then to run demo:
 make demo-1
 ```
 
+## Presentation
+
+[![Presentation](/presentation/programmable-infrastructure-with-k8s.jpg?raw=true)](/presentation/programmable-infrastructure-with-k8s.pdf?raw=true)
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/contino/kubernetes-201) for details on our code of conduct, and the process for submitting pull requests to us.
