@@ -50,7 +50,7 @@ make demo-1
 
 ## Presentation
 
-[![Presentation](/presentation/programmable-infrastructure-with-k8s.jpg?raw=true)](/presentation/programmable-infrastructure-with-k8s.pdf?raw=true)
+[![Presentation](http://nbviewer.jupyter.org/github/contino/kubernetes-201/blob/master/presentation/programmable-infrastructure-with-k8s.pdf)](/presentation/programmable-infrastructure-with-k8s.pdf?raw=true)
 
 ## Contributing
 
